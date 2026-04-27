@@ -214,3 +214,5 @@ ChainVigil-Cross-Channel-Fraud-Intelligence-System/
 | `ENOSPC: System limit for file watchers reached` | Run `echo fs.inotify.max_user_watches=524288 \| sudo tee -a /etc/sysctl.conf` (Linux only) |
 | Frontend shows CORS errors | Make sure the backend is running on port 8000 |
 | Neo4j connection warning | This is normal — the system works fine without Neo4j |
+
+# Vigilante
